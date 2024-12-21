@@ -1,0 +1,29 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.nav-bar{
+    display:flex;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    justify-content: space-between;
+}
+
+.links{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 26px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    color: #F9FaF8;
+}
