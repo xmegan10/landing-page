@@ -9,6 +9,7 @@ body {
     background-color: #1F2937;
     color: #F9FaF8;
     justify-content: space-between;
+    padding: 0px 200px 0px 200px;
 }
 
 .links{
@@ -22,18 +23,22 @@ body {
     display: flex;
     flex-direction: row;
     padding: 50px;
-    flex:1;
 }
 
 .one-left{
     color:#F9FaF8;
+    flex: 0 0 400px;
 }
 
+.large-header{
+    font-size: 48px;
+}
 
 .image-one{
-    width:300px;
+    width:500px;
     height:200px;
-    background-color: #E5E7EB;
+    color:#F9FaF8;
+    background-color: #595e68;
     text-align: center;
     vertical-align: middle;
     line-height: 200px;
@@ -52,21 +57,38 @@ body {
 }
 
 .one{
+    display:flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    padding: 50px 200px 50px 200px;
 }
 
 .two{
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .three{
-  background-color: #E5E7EB;  
+    display: flex;
+    background-color: #E5E7EB;  
+    flex-direction: column;
+    align-items: end;
+    padding: 50px;
 }
 
+.four{
+    display:flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+    
+
 .image-two{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
     border-color: #3882F6;
     background-color:#F9FaF8;
@@ -77,14 +99,19 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     gap: 50px;
+    padding: 20px 200px 20px 200px;
 }
 
 .image-align{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex:0;
 }
+
+
 
 .button-one{
     background-color: #3882F6;
@@ -94,8 +121,21 @@ body {
 }
 
 .quote{
+    font-size: 36px;
     font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    flex:0;
 }
+
+.call-to-action{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    background-color: #3882F6;
+    padding: 30px;
+}
+
 ul{
     list-style-type: none;
     margin:0;
