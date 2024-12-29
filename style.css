@@ -27,11 +27,21 @@ body {
 
 .one-left{
     color:#F9FaF8;
-    flex: 0 0 400px;
+    flex: 1 0 400px;
+}
+
+.one-left p{
+    padding-bottom:20px;
 }
 
 .large-header{
     font-size: 48px;
+    weight: 900;
+}
+
+.information-header{
+    font-size: 36px;
+    weight: 900;
 }
 
 .image-one{
@@ -61,6 +71,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     padding: 50px 200px 50px 200px;
+    gap: 50px;
 }
 
 .two{
@@ -75,7 +86,7 @@ body {
     background-color: #E5E7EB;  
     flex-direction: column;
     align-items: end;
-    padding: 50px;
+    padding: 50px 200px;
 }
 
 .four{
@@ -83,6 +94,7 @@ body {
     height: 200px;
     justify-content: center;
     align-items: center;
+    padding: 50px 200px;
 }
     
 
@@ -92,7 +104,7 @@ body {
     border-style: solid;
     border-color: #3882F6;
     background-color:#F9FaF8;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .image-content{
@@ -101,7 +113,6 @@ body {
     justify-content: center;
     text-align: center;
     gap: 50px;
-    padding: 20px 200px 20px 200px;
 }
 
 .image-align{
@@ -109,31 +120,50 @@ body {
     flex-direction: column;
     align-items: center;
     flex:0;
+    font-weight: 100;
 }
-
-
 
 .button-one{
     background-color: #3882F6;
     border:none;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
-.quote{
+.quote-block{
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    flex:0;
+    flex: 0;
+}
+
+
+.action{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    bottom: 30px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#E5E7EB;
+    padding: 30px 100px;
+    gap: 80px;
 }
 
 .call-to-action{
-    display: flex;
-    position: fixed;
-    bottom: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.button-two{
     background-color: #3882F6;
-    padding: 30px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    color:#E5E7EB;
+    border-radius: 15px;
+    width: 100px;
+    padding:0;
 }
 
 ul{
@@ -145,4 +175,12 @@ ul{
 a{
     text-decoration:none;
     color: #F9FaF8;
+}
+
+h3{
+    margin:0;
+}
+
+p{
+    margin:0;
 }
